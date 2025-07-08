@@ -1,0 +1,38 @@
+# 训练配置
+training:
+  batch_size: 16
+  learning_rate: 0.0001
+  num_epochs: 1000
+  save_interval: 10
+  checkpoint_dir: "checkpoints/"
+  decay_steps: 200   # 学习率衰减步数（每200轮）
+  decay_rate: 0.5    # 衰减系数
+# 学习率调度器
+scheduler:
+  step_size: 50
+  gamma: 0.5  
+# 新增配置项
+network:
+  nf: 64
+  num_blocks: 16
+  degradation_dim: 64
+
+
+# 损失权重
+loss_weights:
+  pixel: 0.1
+  perceptual: 0.3
+  frequency: 0.2
+  gan: 0.01
+
+# 数据路径
+data:
+  train_hr_dir: "/hy-tmp/HDnet/data/DIV2K_train_HR"
+  train_lr_dir: "/hy-tmp/HDnet/data/DIV2K_train_LR"
+  test_hr_dir: "/hy-tmp/test_data/Set5/original"
+  test_lr_dir: "/hy-tmp/test_data/Set5/LRbicx4"
+  upscale_factor: 4
+
+
+
+

@@ -4,18 +4,21 @@
 ## Citation
 
 
-## How to Train/Finetune AMHDM-SRGAN
-
-- [Train AMHDM-SRGAN](#train-amhdm-srgan)
-  - [Overview](#overview)
-  - [Dataset Preparation](#dataset-preparation)
-  - [Train AMHDM-SRNet](#Train-AMHDM-SRNet)
-  - [Train AMHDM-SRGAN](#Train-AMHDM-SRGAN)
 
 
 ### Environmental dependencies
 - Python 3.8+ / PyTorch 1.9+ / CUDA 11.1
  Install commands:'pip install -r requirements.txt'
+
+#### Dataset Preparation
+
+We use DIV2K  datasets for our training. Only HR images are required. <br>
+You can download from :
+
+1. DIV2K: https://data.vision.ee.ethz.ch/cvl/DIV2K/
+2. Flickr2K: https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar
+
+Here are steps for data preparation.
 
 ### Train HDR-Net
 python /hy-tmp/HDnet/train.py

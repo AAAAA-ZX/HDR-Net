@@ -45,8 +45,11 @@ DRealSR:https://drive.google.com/drive/folders/1tP5m4k1_shFT6Dcw31XV8cWHtblGmbOk
 Here are steps for data preparation.
 
 ### Train HDR-Net
+
+Modify the dataset path in config.yaml
+
 python /hy-tmp/HDnet/train.py
 
 
 ### Run HDR-Net
-python /hy-tmp/HDnet/inference.py \--input /hy-tmp/HDnet/data/DIV2K_train_LR \--output /hy-tmp/HDnet/results \--model_dir /hy-tmp/HDnet/checkpoints
+python /hy-tmp/HDnet/inference.py \--input /hy-tmp/HDnet/data/LR \--output /hy-tmp/HDnet/results \--model_dir /hy-tmp/HDnet/checkpoints

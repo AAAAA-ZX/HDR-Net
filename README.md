@@ -7,10 +7,10 @@ If you have used this code or data in your research, please cite the following p
 @article{
   title    = {Enhanced Blind Super-Resolution via Hybrid Degradation Estimation and Dynamic Residual Networks},  
   author   = {Zhang, Xin and Yi, Huawei and Zhao, Mengyuan and Wang, Yanfei and Zhang, Linchen},
-  journal  = {The Visual Computer},
+  journal  = {Displays},
   year     = {2025},
 }
-Zhang, X., Yi, H., Zhao, M. et al. Enhanced Blind Super-Resolution via Hybrid Degradation Estimation and Dynamic Residual Networks. Vis Comput(2025).
+Zhang, X., Yi, H., Zhao, M. et al. Enhanced Blind Super-Resolution via Hybrid Degradation Estimation and Dynamic Residual Networks. Displays(2025).
 ```
 
 
